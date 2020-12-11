@@ -1,0 +1,85 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>INSTA Magasine-Message</title>
+
+<link rel="stylesheet" href="css/bootstrap-responsive.min.css">
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+
+<body>
+
+	<div class="container-fluid">
+		<div class="page-header">
+        	<h2>Contacter</h2>
+        </div>
+       
+       <div class="span6">
+       		<form class="form-horizontal">
+            
+            	<div class="control-group">
+                	<label class="control-label" for="nom">Nom</label>
+                    <div class="controls">
+                    	<input type="text" id="nom" class="input-large">
+                    </div>
+                </div>
+                <div class="control-group">
+                	<label class="control-label" for="email">Email</label>
+                    <div class="controls">
+                    	<input type="email" id="email" class="input-medium">
+                    </div>
+                </div>
+                <div class="control-group">
+                	<label class="control-label" for="pays">Pays</label>
+                    <div class="controls">
+                        <select>
+                            <option>Madagascar</option>
+                            <option selected>France</option>
+                            <option>Italie</option>
+                            <option>Espagne</option>
+                        </select>
+                    </div>
+                </div>
+                
+                
+                <div class="control-group">
+                	<label class="control-label" for="message">Message</label>
+                    <div class="controls">
+                    	<textarea id="message" class="input-xlarge" rows="6"></textarea>
+                    </div>
+                </div>
+                
+                <label class="radio">
+                	<input type="radio" name="radios" id="radios1" value="option1" checked>
+                    Je veux m'inscrire pour la prémiere fois
+                </label>
+                <label class="radio">
+                	<input type="radio" name="radios" id="radios2" value="option2">
+                    Je ne veux pas m'inscrire 
+                </label>
+                
+                <div class="form-actions">
+                	<button type="sumbit" class="btn btn-primary">Envoyer !</button >
+                    <button type="button" class="btn">Annuler</button>
+                </div>
+         
+            </form>
+       </div>
+       <div class="span4 offset2">        
+            <address>
+            	<strong>Notre email</strong>
+                <br>
+                <a href="#">contact@gmail.com</a>
+            </address>
+       
+       </div>
+       
+    </div>
+<script scr="http://code.jquery.com/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+</body>
+</html>

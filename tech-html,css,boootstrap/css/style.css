@@ -1,0 +1,23 @@
+body
+{
+    background-color:wait;
+}
+h1
+{
+	text-align: center;
+	color:green;
+}
+#img
+{
+	width: 2546px;
+	height:920px;
+}
+#titre
+{
+	color:black;
+	text-decoration:underline;
+}
+.row-fluid
+{
+	background-color:white;
+}
